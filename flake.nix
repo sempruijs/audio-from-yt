@@ -23,7 +23,20 @@
               text = ''
                 printf "Paste the url here below:\n\n"
                 read -r url
-                yt-dlp -x --audio-format "mp3" "$url"
+
+                printf "Please type 1 of the following output formats:\n\n"
+                printf " - aac\n"
+                printf " - alac\n"
+                printf " - flac\n"
+                printf " - m4a\n"
+                printf " - mp3\n"
+                printf " - vorbis\n"
+                printf " - wav\n\n"
+
+                printf "format: "
+                read -r format
+
+                yt-dlp -x --audio-format "$format" "$url"
               '';
             };
           };
