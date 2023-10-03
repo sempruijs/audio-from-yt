@@ -3,7 +3,7 @@
 Do you want to scrape audio from a youtube video without shady websites?
 This is the place to be.
 
-Make sure you run [nix](https://nixos.org) with [flakes](https://nixos.wiki/wiki/Flakes) and run the following command:
+Make sure you run [nix](https://nixos.org) with [flakes](https://nixos.wiki/wiki/Flakes) enabled and run the following command:
 
 ```shell
 nix run github:sempruijs/audio-from-yt
