@@ -1,5 +1,10 @@
 # Audio from youtube
 
+This repo has been archived.
+The project has moved to [sempruijs/tools](https://github.com/sempruijs/tools).
+
+
+
 Do you want to scrape audio from a youtube video without shady websites?
 This is the place to be.
 
